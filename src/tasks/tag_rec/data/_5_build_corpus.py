@@ -8,10 +8,10 @@
 -------------------------------------------------
 """
 
-from utils.data_util import load_pickle
+from pyToolkit.lib.utils.pkl_util import load_pickle
 import os
 from pathConfig import data_dir
-from pyToolkit.lib.time_util import get_current_time
+from pyToolkit.lib.utils.time_util import get_current_time
 
 
 def build_corpus(qlist, comp_list, corpus_fpath):
