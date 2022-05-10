@@ -1,6 +1,7 @@
 # Post2Vec - Representation Learning for Stack Overflow Post
 
-Post2Vec interface can be used to get the representation directly from the trained check point.
+Note: This is the branch Post2Vec interface for easy use, means you can get the learned representation directly from the trained check point. If you want to check the orignal training and test data, please checkout the `main` branch and you should have them.
+
 
 ## Instructions
 
