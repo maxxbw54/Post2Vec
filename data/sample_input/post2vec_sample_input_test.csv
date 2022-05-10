@@ -1,0 +1,16 @@
+﻿Id,Title,Body Text,Body Code
+0,How can I get the source directory of a Bash script from within the script itself?,"How do I get the path of the directory in which a Bash script is located, inside that script?
+
+I want to use a Bash script as a launcher for another application. I want to change the working directory to the one where the Bash script is located, so I can operate on the files in that directory, like so:",$ ./application
+1,Send a string instead of byte through socket in Java,How can i send a strin using getOutputStream method. It can only send byte as they mentioned. So far I can send a byte. but not a string value. Thanks in advance,"public void sendToPort() throws IOException {
+
+    Socket socket = null;
+    try {
+        socket = new Socket(""ip address"", 4014);
+        socket.getOutputStream().write(2); // have to insert the string
+    } catch (UnknownHostException e) {
+        System.err.print(e);
+    } finally {
+        socket.close();
+    }
+}"
